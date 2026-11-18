@@ -11,28 +11,25 @@
 ! 1. YOUTUBE - SEARCH RESULTS
 ! ==================================================
 
-www.youtube.com##ytd-search:has-text(/GTA\s*6|GTA\s*VI|GTA6|Grand Theft Auto\s*(6|VI)/i)
+youtube.com##ytd-search:has-text(/GTA\s*6|GTA\s*VI|GTA6|Grand Theft Auto\s*(6|VI)/i)
+youtube.com##ytd-video-renderer:has-text(/GTA\s*6|GTA\s*VI|GTA6|Grand Theft Auto\s*(6|VI)|Leonida|Lucia|Jason/i)
 
-www.youtube.com##ytd-video-renderer:has-text(/GTA\s*6|GTA\s*VI|GTA6|Grand Theft Auto\s*(6|VI)|Leonida|Lucia|Jason/i)
+youtube.com##ytd-rich-item-renderer:has-text(/GTA\s*6|GTA\s*VI|GTA6|Grand Theft Auto\s*(6|VI)|Leonida|Lucia|Jason/i)
 
-www.youtube.com##ytd-rich-item-renderer:has-text(/GTA\s*6|GTA\s*VI|GTA6|Grand Theft Auto\s*(6|VI)|Leonida|Lucia|Jason/i)
+youtube.com##ytd-compact-video-renderer:has-text(/GTA\s*6|GTA\s*VI|GTA6|Grand Theft Auto\s*(6|VI)|Leonida|Lucia|Jason/i)
 
-www.youtube.com##ytd-compact-video-renderer:has-text(/GTA\s*6|GTA\s*VI|GTA6|Grand Theft Auto\s*(6|VI)|Leonida|Lucia|Jason/i)
+youtube.com##ytd-reel-item-renderer:has-text(/GTA\s*6|GTA\s*VI|GTA6|Grand Theft Auto\s*(6|VI)|Leonida|Lucia|Jason/i)
+youtube.com##ytd-playlist-renderer:has-text(/GTA\s*6|GTA\s*VI|GTA6|Grand Theft Auto\s*(6|VI)/i)
 
-www.youtube.com##ytd-reel-item-renderer:has-text(/GTA\s*6|GTA\s*VI|GTA6|Grand Theft Auto\s*(6|VI)|Leonida|Lucia|Jason/i)
-
-www.youtube.com##ytd-playlist-renderer:has-text(/GTA\s*6|GTA\s*VI|GTA6|Grand Theft Auto\s*(6|VI)/i)
-
-www.youtube.com##ytd-comment-thread-renderer:has-text(/GTA\s*6|GTA\s*VI|GTA6|Leonida|Lucia|Jason/i)
+youtube.com##ytd-comment-thread-renderer:has-text(/GTA\s*6|GTA\s*VI|GTA6|Leonida|Lucia|Jason/i)
 
 
 ! ==================================================
 ! 2. YOUTUBE - SPOILER KEYWORDS
 ! ==================================================
 
-www.youtube.com##ytd-rich-item-renderer:has-text(/spoiler|ending|finale|death|leak|gameplay|walkthrough|story|mission|secret ending|plot twist/i)
-
-www.youtube.com##ytd-video-renderer:has-text(/spoiler|ending explained|final mission|full story|all missions|leaked gameplay/i)
+youtube.com##ytd-rich-item-renderer:has-text(/spoiler|ending|finale|death|leak|gameplay|walkthrough|story|mission|secret ending|plot twist/i)
+youtube.com##ytd-video-renderer:has-text(/spoiler|ending explained|final mission|full story|all missions|leaked gameplay/i)
 
 
 ! ==================================================
