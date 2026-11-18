@@ -1,3 +1,4 @@
+
 # 🎮 GTA 6 Spoiler Shield
 
 **Protect yourself from Grand Theft Auto VI spoilers across the internet.**
@@ -72,19 +73,17 @@ Install uBlock Origin Lite from the official Apple App Store:
 
 https://apps.apple.com/app/ublock-origin-lite/id6745342698
 
-### Step 2 – Open the extension settings
+### Step 2 – Download the filters
 
-1. Open Safari.
-2. Open the uBlock Origin Lite extension settings.
-3. Find the custom filtering section.
-4. Make sure the extension has permission to filter content on the websites you visit.
+Download the `custom-filters.txt` file from this repository.
 
 ### Step 3 – Add the filters
 
-1. Open the filter list provided in this repository.
-2. Copy the filter rules.
-3. Paste them into the custom filters section.
+1. Open uBlock Origin Lite settings.
+2. Find the custom filtering section.
+3. Open or import the contents of `custom-filters.txt`, depending on the available options.
 4. Save your changes.
+5. Make sure Safari allows the extension to filter content on the websites you visit.
 
 ### Step 4 – Test the filters
 
@@ -116,6 +115,7 @@ Please keep the following limitations in mind:
 The game will generate new discussions, character references, leaks and spoiler keywords over time.
 
 The filter collection may need regular updates to cover:
+
 - Newly revealed characters
 - New locations
 - Mission names
@@ -130,11 +130,21 @@ Contributions and suggestions are welcome.
 Found a GTA 6 spoiler that slipped through?
 
 Feel free to open an issue or submit a pull request with:
+
 - The missing keyword
 - The website where the spoiler appeared
 - A suggested filter rule
 
 Please avoid posting actual story spoilers in issue titles or descriptions.
+
+## 📁 Repository structure
+
+```text
+GTA-6-Spoiler-Shield/
+│
+├── README.md
+└── custom-filters.txt
+```
 
 ## 📜 Disclaimer
 
