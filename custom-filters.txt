@@ -1,0 +1,85 @@
+
+! ==================================================
+! GTA 6 SPOILER SHIELD
+! SAFARI - uBLOCK ORIGIN LITE
+! MAC + IPHONE + IPAD
+! MAXIMUM PROTECTION
+! ==================================================
+
+
+! ==================================================
+! 1. YOUTUBE - SEARCH RESULTS
+! ==================================================
+
+www.youtube.com##ytd-search:has-text(/GTA\s*6|GTA\s*VI|GTA6|Grand Theft Auto\s*(6|VI)/i)
+
+www.youtube.com##ytd-video-renderer:has-text(/GTA\s*6|GTA\s*VI|GTA6|Grand Theft Auto\s*(6|VI)|Leonida|Lucia|Jason/i)
+
+www.youtube.com##ytd-rich-item-renderer:has-text(/GTA\s*6|GTA\s*VI|GTA6|Grand Theft Auto\s*(6|VI)|Leonida|Lucia|Jason/i)
+
+www.youtube.com##ytd-compact-video-renderer:has-text(/GTA\s*6|GTA\s*VI|GTA6|Grand Theft Auto\s*(6|VI)|Leonida|Lucia|Jason/i)
+
+www.youtube.com##ytd-reel-item-renderer:has-text(/GTA\s*6|GTA\s*VI|GTA6|Grand Theft Auto\s*(6|VI)|Leonida|Lucia|Jason/i)
+
+www.youtube.com##ytd-playlist-renderer:has-text(/GTA\s*6|GTA\s*VI|GTA6|Grand Theft Auto\s*(6|VI)/i)
+
+www.youtube.com##ytd-comment-thread-renderer:has-text(/GTA\s*6|GTA\s*VI|GTA6|Leonida|Lucia|Jason/i)
+
+
+! ==================================================
+! 2. YOUTUBE - SPOILER KEYWORDS
+! ==================================================
+
+www.youtube.com##ytd-rich-item-renderer:has-text(/spoiler|ending|finale|death|leak|gameplay|walkthrough|story|mission|secret ending|plot twist/i)
+
+www.youtube.com##ytd-video-renderer:has-text(/spoiler|ending explained|final mission|full story|all missions|leaked gameplay/i)
+
+
+! ==================================================
+! 3. GOOGLE SEARCH
+! ==================================================
+
+www.google.com##div.MjjYud:has-text(/GTA\s*6|GTA\s*VI|GTA6|Grand Theft Auto\s*(6|VI)|Leonida|Lucia|Jason/i)
+
+www.google.nl##div.MjjYud:has-text(/GTA\s*6|GTA\s*VI|GTA6|Grand Theft Auto\s*(6|VI)|Leonida|Lucia|Jason/i)
+
+
+! ==================================================
+! 4. REDDIT
+! ==================================================
+
+www.reddit.com##article:has-text(/GTA\s*6|GTA\s*VI|GTA6|Grand Theft Auto\s*(6|VI)|Leonida|Lucia|Jason/i)
+
+www.reddit.com##shreddit-post:has-text(/GTA\s*6|GTA\s*VI|GTA6|Grand Theft Auto\s*(6|VI)|Leonida|Lucia|Jason/i)
+
+
+! ==================================================
+! 5. ALL WEBSITES - GTA 6 ARTICLES
+! ==================================================
+
+*##article:has-text(/GTA\s*6|GTA\s*VI|GTA6|Grand Theft Auto\s*(6|VI)|Leonida|Lucia Caminos|Jason Duval/i)
+
+*##a:has-text(/GTA\s*6|GTA\s*VI|GTA6|Grand Theft Auto\s*(6|VI)|Lucia Caminos|Jason Duval/i)
+
+
+! ==================================================
+! 6. STORY SPOILERS
+! ==================================================
+
+*##article:has-text(/GTA\s*6.*(ending|finale|death|spoiler|plot twist|story leak|ending leak)/i)
+
+*##article:has-text(/GTA\s*6.*(all missions|final mission|full story|complete walkthrough|game ending|secret ending)/i)
+
+
+! ==================================================
+! 7. CHARACTER PROTECTION
+! ==================================================
+
+*##article:has-text(/Lucia Caminos|Jason Duval/i)
+
+*##a:has-text(/Lucia Caminos|Jason Duval/i)
+
+
+! ==================================================
+! END OF GTA 6 SPOILER SHIELD
+! ==================================================
