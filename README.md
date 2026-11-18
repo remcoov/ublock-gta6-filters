@@ -1,3 +1,4 @@
+<img width="1568" height="687" alt="blocked" src="https://github.com/user-attachments/assets/1d5f81f8-e6af-4399-a2e2-50e56dcd6c50" />
 
 # 🎮 GTA 6 Spoiler Shield
 
